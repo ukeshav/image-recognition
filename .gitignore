@@ -1,0 +1,27 @@
+# Face encodings — personal biometric data, never commit
+known_faces/
+
+# Database — contains personal attendance records
+data/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code local settings (may contain infra paths/IPs)
+.claude/
+
+# Generated outputs
+*.log
